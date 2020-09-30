@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafepedia</title>
+    <link rel="stylesheet" href="Css/estilos.css">
+    <script src="https://kit.fontawesome.com/f76415a536.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="contenedor"> 
+        <header>
+            <img id="taza2" src="imagenes/tazaanim1.png" alt="imagen de humo">     
+            <img id="taza" src="imagenes/tazaanim1 - copia.png" alt="imagen de taza"> 
+            <h1 class="titulo">CAFEPEDIA</h1>
+            
+        </header>
+
+        <div class="bar">
+            <nav>
+                <a class="nav" href="index.html">Home</a>
+                <a class="nav" href="historia.html">Historia del Cafe</a>
+                <a class="nav" href="produccion.html">Produccion</a>
+                <a class="nav" href="cafeteras.html">Cafeteras</a>
+                <a class="nav" href="suscripcion.html">Sucribirse</a>
+            </nav>
+        </div>
+
+
+        <div class="main">
+            <h1>Suscribase a nuestro Newsletter!</h1>
+            <h2>Reciba semanalmente todas las novedades acerca de eventos y ofertas de productos sobre el Cafe. </h1>
+            <br><br>
+            <form action="data_suscripcion.html" target="_blank">
+                <label for="firstname">Nombre: </label><input type="text" name="firstname" size="50" placeholder="Escriba su nombre"><br><br>
+                <label for="lastname">Apellido: </label><input type="text" name="lastname" size="50" placeholder="Escriba su apellido"><br><br>
+                <label for="mail">Correo: </label><input type="email" name="mail" size="50" placeholder="ejemplo@mail.com"><br><br>
+                <label for="pais">Pais: </label><input type="text" name="pais" size="50" placeholder="Pais"><br><br>
+                <br>
+                <p>Que desea recibir?
+                    <input type="checkbox" name="item" value="noticias">Noticias
+                    <input type="checkbox" name="item" value="ofertas">Ofertas
+                    <input type="checkbox" name="item" value="eventos">Eventos
+                </p>
+                <br>
+                <input id="boton" type="submit" value="Suscribirse">
+            </form>
+        </div>
+
+
+        <footer>
+
+            <div class="foot">
+                <br>
+                <span style="font-size: 25px;">
+                    <i class="fas fa-mug-hot"></i>
+                    </span></i>
+        
+                <br><p id="pfoot">Derechos reservados @2020</p>
+            
+            </div>
+            
+        </footer>
+        
+</body>
+</html>
